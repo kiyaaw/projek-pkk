@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body{
+        background-color: rgb(255, 239, 206);
+        margin: 0;
+    }
+    .hias{
+        width: 100%;
+    }
+    .logoo {
+        border-radius: 500px;
+        width: 300px;
+        display: flex;
+        padding-left: 50px;
+    }
+    .insta {
+        background-color: rgb(255, 249, 198);
+        border-bottom: 4px solid rgb(255, 205, 228);
+        border-top: 4px solid rgb(255, 205, 228);
+        border-right: 4px solid rgb(255, 205, 228);
+        border-left: 4px solid rgb(255, 205, 228);
+        height: 30px;
+        border-radius: 8px;
+        width: 300px;
+        box-shadow: 2px 2px 5px rgb(255, 145, 249);
+        text-align: center;
+    }
+    .navbar{
+        background-color: rgb(255, 205, 228);
+        width: 98%;
+        height: 30px;
+        border-radius: 20px;
+        box-shadow: 4px 4px 7px rgb(184, 183, 183);
+    }
+    .opening {
+        color: rgb(255, 136, 191); 
+        text-shadow: 2px 2px 5px rgb(179, 177, 177);
+        display: flex;
+        justify-content: center;
+    }
+    .info {
+        color: rgb(255, 136, 191); 
+        text-shadow: 2px 2px 5px rgb(179, 177, 177);
+    }
+    .kotak1 {
+        display: flex;
+        gap : 10px;
+        justify-content: end;
+        align-items: end;
+        margin: 80px;
+        gap: 50px;
+        height: 5px;
+    }
+    .maincontent{
+        background-color: rgb(255, 229, 172);
+        height: 490px;
+        width: 325px ;
+        border-radius: 10px;
+        border: 6px solid rgb(255, 205, 228);
+        box-shadow: 4px 4px 7px rgb(184, 183, 183);
+        color: rgb(247, 126, 182);
+        text-shadow: 4px 4px 7px rgb(184, 183, 183);
+        padding-right: 25px;
+        padding-left: 18px;
+        padding-top: 17px;
+        margin: none;
+
+    }
+    .maincontent img{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        height: 250px;
+        border-bottom: 5px solid rgb(255, 205, 228);
+        border-top: 4px solid rgb(255, 205, 228);
+        border-left: 4px solid rgb(255, 205, 228);
+        border-right: 4px solid rgb(255, 205, 228);
+        width: 323px;
+    }
+    .title {
+        margin: 0;
+        text-shadow: 2px 1px 5px rgb(172, 171, 171);
+    }
+    .teks {
+        margin: 0;
+        text-shadow: 2px 1px 5px rgb(172, 171, 171);
+    }
+    .harga{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        text-shadow: 2px 1px 5px rgb(172, 171, 171);
+    }
+    .tombolkonten {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 140px;
+        flex-direction: column;
+    }
+    .secondcontent img{
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        height: 250px;
+        border-bottom: 6px solid pink;
+    }
+    .kotak2 {
+        display: flex;
+        gap : 10px;
+        justify-content: end;
+        align-items: end;
+        margin: 80px;
+        margin-right: 28px;
+        gap: 50px;
+    }
+    .thirdcontent img {
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        width: 100%;
+        height: 250px;
+        border-bottom: 6px solid rgb(255, 205, 228);
+    }
+    .fourthcontent img {
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        height: 250px;
+        border-bottom: 6px solid rgb(255, 205, 228);
+    }
+    .tombol1 {
+        background-color: rgb(255, 249, 198);
+        border-bottom: 4px solid rgb(255, 205, 228);
+        border-top: 4px solid rgb(255, 205, 228);
+        border-right: 4px solid rgb(255, 205, 228);
+        border-left: 4px solid rgb(255, 205, 228);
+        height: 28px;
+        border-radius: 8px;
+        width: 150px;
+        box-shadow: 2px 2px 5px rgb(255, 145, 249);
+    }
+    .tombol1:hover {
+        background-color: rgb(255, 205, 228);
+        text-decoration: underline;
+        border-bottom: 4px solid rgb(255, 249, 198);
+        border-top: 4px solid rgb(255, 249, 198);
+        border-right: 4px solid rgb(255, 249, 198);
+        border-left: 4px solid rgb(255, 249, 198);
+    }
+    .tombol1:focus {
+        background-color: rgb(206, 203, 203);
+    }
+    .medsos {
+        width: max-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 30px;
+}
+</style>
+</head>
+<body>
+    <img class="hias" src="hiasan.png" />
+    <div style="width: 100%; display: flex; justify-content: center;">
+        <div class="navbar"></div>
+    </div>
+    <h1 class="opening" > Selamat Datang!</h1>
+    <h2 class="opening" > Selamat berbelanja di toko kami </h2>
+    <div class="medsos"> 
+        <img class="logoo" src="logo.png" />
+        <h3 class="info"> Informasi lebih lanjut </h3>
+        <h3 class="insta"><a href="https://www.instagram.com/happymie.store/?next=%2F" target="_blank"> instagram </a></h3>
+        <h3 class="insta"><a href="https://wa.me/6289695203795?text=halo%20kiyaa!%20aku%20mau%20tanya%20mengenai%20noodle%20rollnya%20dong%20" target="_blank"> whatsapp </a></h3>
+    </div>
+    <div class="kotak1">
+        <div class="maincontent"><img src="https://i.pinimg.com/736x/b2/f7/74/b2f77473a609eb4dfcd056419236a55a.jpg"/><h2 class="title">Noodle Roll Original</h2> 
+        <p class="teks"> Mie dengan bumbu pedas yang dilapisi dan digulung dengan rice paper.</p>
+        <div class="tombolkonten"><h4> Rp. 10k </h4><button class="tombol1"><a href="https://wa.me/6289695203795?text=halo%20kiyaa!%20aku%20mau%20pesen%20noodle%20roll%20originalnya%20dong" target="_blank">Order here</a></button></div>
+        </div>
+
+        <div class="maincontent"><img src="https://postpangandaran.com/photo/plugin/article/2023/1685687961_1-org.jpg"/><h2 class="title"> Noodle Roll Nori</h2> 
+            <p class="teks"> Mie dengan topping nori yang dilapisi dan digulung dengan rice paper.</p>
+            <div class="tombolkonten"><h4> Rp. 11k </h4><button class="tombol1"><a href="https://wa.me/6289695203795?text=halo%20kiyaa!%20aku%20mau%20pesen%20noodle%20roll%20varian%20norinya%20dong" target="_blank"> Order here</a></button></div>
+            </div>
+    </div>
+    <div class="kotak2">
+        <div class="maincontent"><img src="https://pasinaja.id/storage/app/public/product/thumbnail/2024-05-14-6642d9ffed68b.png"/><h2 class="title"> Noodle Roll Keju</h2> 
+            <p class="teks"> Mie dengan topping keju yang melimpah yang dilapisi dan digulung dengan rice paper.</p>
+            <div class="tombolkonten"><h4> Rp. 12k </h4><button class="tombol1"><a href="https://wa.me/6289695203795?text=halo%20kiyaa!%20aku%20mau%20pesen%20noodle%20roll%20varian%20kejunya%20dong" target="_blank"> Order here</a></button></div>
+            </div>
+
+        <div class="maincontent"><img src="https://radarmukomuko.disway.id/upload/68828cf7208a105644662fa6b9118eca.jpg"/><h2 class="title">Noodle Roll Mix</h2> 
+            <p class="teks"> Mie dengan 3 macam topping yaitu keju, nori dan biji wijen yang digulung dengan rice paper.</p>
+            <div class="tombolkonten"><h4> Rp. 13k </h4><button class="tombol1"><a href="https://wa.me/6289695203795?text=halo%20kiyaa!%20aku%20mau%20pesen%20noodle%20roll%20varian%20mixnya%20dong" target="_blank">  Order here </button></div>
+            </div>
+    </div>
+</body>
+</html>
